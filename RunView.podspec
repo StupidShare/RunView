@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RunView"
-  s.version      = "0.0.2"
-  s.summary      = "这里写的是s.summary"
+  s.version      = "0.0.3"
+  s.summary      = "简易轮播空间 超级好用"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -132,6 +132,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "SDWebImage", "~> 4.0.0"
 
 end

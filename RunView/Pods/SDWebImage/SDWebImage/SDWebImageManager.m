@@ -186,8 +186,7 @@
                         && error.code != NSURLErrorInternationalRoamingOff
                         && error.code != NSURLErrorDataNotAllowed
                         && error.code != NSURLErrorCannotFindHost
-                        && error.code != NSURLErrorCannotConnectToHost
-                        && error.code != NSURLErrorNetworkConnectionLost) {
+                        && error.code != NSURLErrorCannotConnectToHost) {
                         @synchronized (self.failedURLs) {
                             [self.failedURLs addObject:url];
                         }
